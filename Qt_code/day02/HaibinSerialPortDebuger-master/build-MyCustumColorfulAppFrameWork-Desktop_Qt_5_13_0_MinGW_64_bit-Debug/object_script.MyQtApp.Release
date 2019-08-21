@@ -1,0 +1,10 @@
+release/MainWidget.o
+release/main.o
+release/Settings.o
+release/MainWindow.o
+release/MessageBox.o
+release/qrc_qss.o
+release/moc_MainWidget.o
+release/moc_Settings.o
+release/moc_MainWindow.o
+release/moc_MessageBox.o

@@ -1,0 +1,9 @@
+﻿  Uic'ing _QtTest.ui...
+  Rcc'ing _QtTest.qrc...
+  Moc'ing _QtTest.h...
+   RCC: Warning: No resources in 'E:\Mycode\Qt_code\day01\01_QtTest\_QtTest.qrc'.
+  main.cpp
+  _QtTest.cpp
+  qrc__QtTest.cpp
+  moc__QtTest.cpp
+  01_QtTest.vcxproj -> E:\Mycode\Qt_code\day01\x64\Debug\01_QtTest.exe

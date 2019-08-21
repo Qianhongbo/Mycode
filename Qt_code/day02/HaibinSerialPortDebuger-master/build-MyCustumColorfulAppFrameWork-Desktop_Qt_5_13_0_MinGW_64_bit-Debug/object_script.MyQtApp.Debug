@@ -1,0 +1,10 @@
+debug/MainWidget.o
+debug/main.o
+debug/Settings.o
+debug/MainWindow.o
+debug/MessageBox.o
+debug/qrc_qss.o
+debug/moc_MainWidget.o
+debug/moc_Settings.o
+debug/moc_MainWindow.o
+debug/moc_MessageBox.o
