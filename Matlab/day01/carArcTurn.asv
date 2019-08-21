@@ -18,7 +18,7 @@ r = 0.065;
 l = 0.115;
 
 %设定参数
-v = 0.2;
+v = 0.15;
 w = v/r;
 
 circlePoint = [0,r];
@@ -42,15 +42,13 @@ for i = 1:4000
     %机器内部调整策略
     if(v>v0)
         v0 = v0+t*av;
-    elseif(v == v0)
-        v0 = v0+0;
+    elif(v>v0)
+        v0 = v0+t*av;
     else
         v0 = v0-t*av;
     end
     if(w>w0)
         w0 = w0+t*aw;
-    elseif(w == w0)
-        w0 = w0+0;
     else
         w0 = w0-t*aw;
     end
