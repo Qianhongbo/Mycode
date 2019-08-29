@@ -58,6 +58,8 @@ for i = 1:4000
     v2 = v0 - l*w0;
     vv1(1,i) = v1;
     vv2(1,i) = v2;
+    [mm1,ii1]=max(vv1);
+    [mm2,ii2]=min(vv2);
     ra = v0/w0;
 end
 
@@ -75,6 +77,7 @@ hold on;
 
 plot(circlePoint(:,1),circlePoint(:,2),'*');
 plot(pose(:,1),pose(:,2));
+text(pose(ii1,1),pose(ii1,2),'X','color','g');
 
 figure(2);
 plot(dis);
